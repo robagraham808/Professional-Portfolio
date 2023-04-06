@@ -1,0 +1,48 @@
+/* Global Styles */
+html, body {
+    margin: 0;
+    background-color:cadetblue;
+}
+/* Navigation/Header* /
+h1{ 
+    font-size: 48px;
+}
+/* Shared section styles*/
+nav {
+    display:flex;
+    justify-content:space-between;
+    background-color:coral;
+ }
+
+
+ nav h1 {
+font-size: 25px;
+color: khaki;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    padding: 5px 10px;
+    
+}
+nav ul li a {
+    color: darkslateblue;
+}
+h2 {
+    font-size: 24px;
+    color:orangered;
+}
+
+
+
+
+
+
+
+/* About Section */
+#about img {
+    max-width: 500px;
+    margin: 10px auto;
+}
